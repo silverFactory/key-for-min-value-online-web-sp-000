@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
         i +=1
       elsif name_hash[min_key] > value
         min_key = name
-        i += 1 
+        i += 1
         binding.pry
       else
         i += 1
